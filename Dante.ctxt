@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Dante
+comment0.text=\r\n\ Dante\ es\ el\ personaje\ principal\ del\ juego.\r\n\ \r\n\ @Jose\ Pablo\ Romero\ Arcila\ -\ Anderson\ Rodriguez\ \r\n\ @Version\ 1.0\r\n
+comment1.params=
+comment1.target=Dante()
+comment2.params=
+comment2.target=void\ identificarTeclaYMover()
+comment3.params=
+comment3.target=void\ animarAbajo()
+comment4.params=
+comment4.target=void\ animarArriba()
+comment5.params=
+comment5.target=void\ animarDerecha()
+comment6.params=
+comment6.target=void\ animarIzquierda()
+comment7.params=
+comment7.target=void\ act()
+numComments=8

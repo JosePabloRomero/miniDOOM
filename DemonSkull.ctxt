@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DemonSkull
+comment0.text=\r\n\ Dante\ es\ el\ personaje\ principal\ del\ juego.\r\n\ \r\n\ @Jose\ Pablo\ Romero\ Arcila\ -\ Anderson\ Rodriguez\ \r\n\ @Version\ 1.0\r\n
+comment1.params=
+comment1.target=DemonSkull()
+comment2.params=
+comment2.target=void\ animar()
+comment3.params=
+comment3.target=void\ mover()
+comment4.params=
+comment4.target=void\ act()
+numComments=5
