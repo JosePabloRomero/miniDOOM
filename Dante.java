@@ -150,14 +150,8 @@ public class Dante extends Actor
         } else {
             contadorIteraciones++;
         }
-    }
-    
-    public Dante posicionDante()
-    {
-        Dante dante = new Dante();
-        return dante;
-    }
-    
+    }  
+   
     public void act() 
     {
         identificarTeclaYMover();

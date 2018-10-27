@@ -51,7 +51,7 @@ public class MyWorld extends World
             tiempo.mark();
             int y = Greenfoot.getRandomNumber( getHeight() - 5 + 1 ) -5; 
             int x = Greenfoot.getRandomNumber( getWidth() - 5 + 1 ) -5;
-            demonioBoss = new DemonBoss();
+            demonioBoss = new DemonBoss(dante);
             addObject (demonioBoss, x, y);          
         }
     }
