@@ -10,6 +10,7 @@ public class Dante extends Actor
 {
     public static final int NUMERO_IMAGENES = 9;
     public static final int ITERACIONES_ANIMACION = 5;
+    public static final int VELOCIDAD = 5;
     
     public static final int ABAJO = 3;
     public static final int ARRIBA = 4;
@@ -54,7 +55,7 @@ public class Dante extends Actor
             {
                 indiceAnimacion = 0;
             }
-            setLocation( getX(), getY() + 2 );
+            setLocation( getX(), getY() + VELOCIDAD );
             animarAbajo();
             direccion = ARRIBA;
         } else if( Greenfoot.isKeyDown("up") ) {
@@ -62,7 +63,7 @@ public class Dante extends Actor
             {
                 indiceAnimacion = 0;
             }
-            setLocation( getX(), getY() - 2 );
+            setLocation( getX(), getY() - VELOCIDAD );
             animarArriba();
             direccion = ABAJO;
         } else if( Greenfoot.isKeyDown("right") ) {
@@ -70,7 +71,7 @@ public class Dante extends Actor
             {
                 indiceAnimacion = 0;
             }
-            setLocation( getX() + 2, getY() );
+            setLocation( getX() + VELOCIDAD, getY() );
             animarDerecha();
             direccion = IZQUIERDA;
         } else if( Greenfoot.isKeyDown("left") ) {
@@ -78,7 +79,7 @@ public class Dante extends Actor
             {
                 indiceAnimacion = 0;
             }
-            setLocation( getX() -2, getY() );
+            setLocation( getX() - VELOCIDAD, getY() );
             animarIzquierda();
             direccion = DERECHA;
         }
