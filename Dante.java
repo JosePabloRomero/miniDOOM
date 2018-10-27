@@ -152,6 +152,11 @@ public class Dante extends Actor
         }
     }
     
+    public Dante posicionDante()
+    {
+        Dante dante = new Dante();
+        return dante;
+    }
     
     public void act() 
     {
